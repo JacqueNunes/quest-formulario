@@ -23,11 +23,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este formulário verifica a validação das informações, caso o os campos obrigatórios não sejam preenchidos, as bordas ficam vermelhas e a mensagem de "campo obrigatório" aparece, se todos os campos estiverem preenchidos as bordas ficaram verdes.
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://jacquenunes.github.io/quest-formulario/)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]().
+Você pode visualizar o layout do projeto através [DESSE LINK](https://github.com/JacqueNunes/quest-formulario).
 
 
 ---
