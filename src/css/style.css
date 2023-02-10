@@ -1,0 +1,114 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url(../image/bg-repeat.jpg) repeat-x;
+    background-size: contain;
+
+}
+
+#information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: var(--bg-text-color)
+}
+
+#information .text {
+    margin-right: 73px;   
+    width: 288px;    
+    height: 46px;    
+    margin-bottom: 85px;
+    margin-bottom: 5.313em;
+
+}
+
+#information .text h1 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 12px;
+   
+}
+
+#information .text p {
+    font-weight: 400;
+    font-size: 15px;    
+    width: 300px;    
+    height: 54px;    
+}
+
+#information .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    background: var(--bg-text-color);
+    padding: 20px;
+}
+
+form .form-control {
+    width: 100%;
+    margin-bottom: 5px;    
+}
+
+.form-control input {
+    padding: 10px;
+    width: 298.01px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.form .form-control textarea {
+    border: 1px solid #000000;
+    padding: 10px;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    width: 100%; 
+    height: 120px;
+}
+
+
+.form p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.form .form-control small {
+    font-size: 9px;
+    visibility: hidden;
+    color: var(--campo-obrigatorio);     
+}
+
+.btn-enviar {
+    width: 298.01px;
+    height: 41.13px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--bg-text-color);
+    background: #3CCC87;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    margin: 15px;
+}
+
+.btn-enviar:hover {
+    cursor: pointer;
+}
+
+.form-control .sucesso {
+    border-color: #00C22B !important;
+}
+
+.form-control .erro{
+    border-color: var(--campo-obrigatorio) !important;
+}
+
+.erro-mensagem .erro small {
+    visibility: visible;
+}
