@@ -76,6 +76,7 @@ form .form-control {
     width: 100%;
     font-weight: 400;
     font-size: 15px;
+    color: #000;
 }
 
 .form .form-control small {
