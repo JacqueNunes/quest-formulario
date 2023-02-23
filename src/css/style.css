@@ -5,7 +5,6 @@ html {
 body {
     background: url(../image/bg-repeat.jpg) repeat-x;
     background-size: contain;
-
 }
 
 #information {
@@ -17,19 +16,16 @@ body {
 }
 
 #information .text {
-    margin-right: 73px;   
-    width: 288px;    
-    height: 46px;    
-    margin-bottom: 85px;
-    margin-bottom: 5.313em;
-
+     width: 288px;    
+    height: 46px;      
+     margin: 0 85px 73px 0;
 }
 
 #information .text h1 {
     font-weight: 900;
     font-size: 20px;
-    margin-bottom: 12px;
-   
+    margin-bottom: 12px;  
+    line-height: 15px; 
 }
 
 #information .text p {
@@ -71,7 +67,6 @@ form .form-control {
     height: 120px;
 }
 
-
 .form p {
     width: 100%;
     font-weight: 400;
@@ -110,6 +105,8 @@ form .form-control {
     border-color: var(--campo-obrigatorio) !important;
 }
 
-.erro-mensagem .erro small {
+.form .form-control small.visible {
     visibility: visible;
 }
+
+

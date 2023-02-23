@@ -1,0 +1,12 @@
+@media (max-width: 768px){
+    #information{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #information .text{
+        text-align: center;
+        margin-left: 50px;
+    }
+}
